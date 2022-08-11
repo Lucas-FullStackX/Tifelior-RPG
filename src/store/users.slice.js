@@ -1,8 +1,8 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 // create slice
 
-const name = "users";
+const name = 'users';
 const initialState = createInitialState();
 const extraActions = createExtraActions();
 const extraReducers = createExtraReducers();
@@ -27,7 +27,7 @@ function createExtraActions() {
   };
 
   function getAll() {
-    return "TEST";
+    return 'TEST';
   }
 }
 
